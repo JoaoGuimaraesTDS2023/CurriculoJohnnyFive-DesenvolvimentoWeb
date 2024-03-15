@@ -48,14 +48,20 @@
 
         <!--UTILIZAR NO CSS ALGO DO TIPO: 
 
-            <marquee id="marquee1" direction="down" width="200" height="200" bgcolor="gray" behavior="alternate" style="border:black 3px solid">
-                <marquee id="marquee1" behavior="alternate" bgcolor="blue">
-                    DVD
-                </marquee>
-            </marquee>
+            <div id="tvMarquees">
+                
+                <marquee id="marquee1"width="400" height="300" behavior="alternate" direction="down" bgcolor="purple" style="border:gray 5px solid">
 
-            <input type="button" value="Stop" onClick="document.getElementById('marquee1').stop();"/>
-            <input type="button" value="Start" onClick="document.getElementById('marquee1').start();"/>
+                    <marquee id="marquee2" behavior="alternate" direction="left" style="color: greenyellow; font-size: 30px;">
+                        [DVD]
+                    </marquee>
+
+                </marquee>
+
+                <input type="button" value="START" onClick="document.getElementById('marquee1').start(); document.getElementById('marquee2').start();"/>
+                <input type="button" value="STOP" onClick="document.getElementById('marquee1').stop();  document.getElementById('marquee2').stop();"/>
+
+            </div>
             
         -->
     </body>
