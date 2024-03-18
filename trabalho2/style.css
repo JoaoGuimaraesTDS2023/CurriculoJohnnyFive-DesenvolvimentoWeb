@@ -1,0 +1,47 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body
+{
+    width: 60%;
+    margin: 0 auto;
+    padding: 2% 0;
+
+    background: #B9B4C7;
+    font-style: #444;
+    line-height: 1.5em;
+}
+
+main
+{
+    background: white;
+
+}
+
+h1, h2 
+{
+    color: rgb(140, 76, 8);
+}
+
+section
+{
+    margin-top: 0px;
+    padding: 30px;
+    padding-bottom: 5px;
+    border-top: solid 1px gray;
+}
+
+ul
+{
+    margin-left: 17px;
+}
+
+ol
+{
+    margin-left: 30px;
+}
