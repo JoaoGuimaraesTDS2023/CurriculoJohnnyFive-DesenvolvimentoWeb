@@ -1,62 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
+
+        <link rel="stylesheet" href="style.css">
+
         <title>Currículo de Johnny Five</title>
+
     </head>
     <body>
 
-        <a href="./index.html">VOLTAR</a>
+        <main>
 
-        <hr>
+            <a href="./index.html">VOLTAR</a>
 
-        <figure>
-           <img src="./images/icon.png" alt="Icone">
-            <figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam commodi similique fuga deleniti voluptatum nam modi doloremque quasi debitis voluptatem!</figcaption> 
-        </figure>
+            <hr>
 
-        <p>Lorem <abbr title="Instituto Federal do Paraná">IFPR</abbr> dolor sit amet, consectetur adipisicing elit. Temporibus eius voluptates quia nesciunt perferendis aut tempora nemo non quibusdam labore repudiandae laboriosam autem eligendi dignissimos ullam ducimus praesentium, sed dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor debitis eligendi unde placeat. Quam corrupti asperiores ipsum tempora debitis ipsa? Labore omnis laudantium assumenda mollitia adipisci odio distinctio sapiente vel.</p>
+            <section>
 
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>titulo 1</th>
-                    <th>titulo 2</th>
-                    <th>titulo 3</th>
-                </tr>
-            </thead>
+                <h2>Localização Atual</h2>
 
-            <tbody>
-                <tr>
-                    <td>Body1 linha1</td>
-                    <td>Body2 linha1</td>
-                    <td>Body3 linha1</td>
-                </tr>
-                <tr>
-                    <td>Body1 linha2</td>
-                    <td>Body2 linha2</td>
-                    <td>Body3 linha2</td>
-                </tr>
-            </tbody>
+                <figure>
 
-            <tfoot>
-                <td>Foot 1</td>
-                <td>Foot 2</td>
-                <td>Foot 3</td>
-            </tfoot>
+                    <img class="perfil" src="./images/icon.png" alt="icon" width="198px" height="198px">
 
-        </table>
+                    <div class="dvd">
+                
+                        <marquee id="marquee1" direction="down" width="195px" height="195px" bgcolor="#B9B4C7" behavior="alternate">
+                            <marquee direction="right" behavior="alternate">
+                                [Not Found]
+                            </marquee>
+                        </marquee>
+        
+                    </div>
 
-        <!--UTILIZAR NO CSS ALGO DO TIPO: 
+                    <figcaption>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam commodi similique fuga deleniti voluptatum nam modi doloremque quasi debitis voluptatem!</figcaption> 
+                    
+                </figure>
 
-            <marquee id="marquee1" direction="down" width="200" height="200" bgcolor="gray" behavior="alternate" style="border:black 3px solid">
-                <marquee id="marquee1" behavior="alternate" bgcolor="blue">
-                    DVD
-                </marquee>
-            </marquee>
+            </section>
 
-            <input type="button" value="Stop" onClick="document.getElementById('marquee1').stop();"/>
-            <input type="button" value="Start" onClick="document.getElementById('marquee1').start();"/>
+            <section>
+
+                <p>Lorem <abbr title="Instituto Federal do Paraná">IFPR</abbr> dolor sit amet, consectetur adipisicing elit. Temporibus eius voluptates quia nesciunt perferendis aut tempora nemo non quibusdam labore repudiandae laboriosam autem eligendi dignissimos ullam ducimus praesentium, sed dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor debitis eligendi unde placeat. Quam corrupti asperiores ipsum tempora debitis ipsa? Labore omnis laudantium assumenda mollitia adipisci odio distinctio sapiente vel.</p>
+
+            </section>
+
+            <section>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>titulo 1</th>
+                            <th>titulo 2</th>
+                            <th>titulo 3</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Body1 linha1</td>
+                            <td>Body2 linha1</td>
+                            <td>Body3 linha1</td>
+                        </tr>
+                        <tr>
+                            <td>Body1 linha2</td>
+                            <td>Body2 linha2</td>
+                            <td>Body3 linha2</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <td>Foot 1</td>
+                        <td>Foot 2</td>
+                        <td>Foot 3</td>
+                    </tfoot>
+
+                </table>
+
+            </section>
             
-        -->
+
+        </main>
+
+        
     </body>
 </html>

@@ -28,20 +28,82 @@ h1, h2
     color: rgb(140, 76, 8);
 }
 
+h2
+{
+    padding-bottom: 10px;
+}
+
+h1
+{
+    font-size: xx-large;
+}
+
 section
 {
-    margin-top: 0px;
+    margin-top: 0;
     padding: 30px;
-    padding-bottom: 5px;
+    padding-bottom: 30px;
     border-top: solid 1px gray;
+}
+
+figure
+{
+    min-height: 200px;
+}
+
+.dvd
+{
+    margin: 0;
+    padding:  0 30px;
+    border: 0;
+    float: left;
+}
+
+.perfil
+{
+    border: solid 2px gray;
+    float: left;
+}
+
+#marquee1
+{
+    border: solid 5px gray;
 }
 
 ul
 {
-    margin-left: 17px;
+    margin-left: 33px;
 }
 
 ol
 {
-    margin-left: 30px;
+    margin-left: 48px;
+}
+
+p
+{
+    margin-left: 17px;
+}
+
+/* CSS table */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 2px solid gray;
+    text-align: left;
+    padding: 8px;
+}
+
+th
+{
+    background-color: #E1E5EA;
+}
+  
+tr{
+    background-color: white;
 }
